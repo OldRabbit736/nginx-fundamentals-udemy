@@ -1,0 +1,6 @@
+nginx 설치 서버에 접속한 상태에서
+
+
+service nginx reload
+- 수정된 conf.d 파일을 적용
+

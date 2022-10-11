@@ -1,0 +1,12 @@
+location priority
+https://docs.nginx.com/nginx/admin-guide/web-server/web-server/#location_priority
+
+1. Exact Match
+    = uri
+2. Preferential Prefix Match
+    ^~ uri
+3. REGEX Match
+    ~* uri
+4. Prefix Match
+    uri
+
