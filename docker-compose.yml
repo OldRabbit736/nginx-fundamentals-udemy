@@ -6,3 +6,8 @@ services:
     volumes:
       - ./config/nginx.conf:/etc/nginx/nginx.conf:ro
       - ./resources/sites/demo:/sites/demo:ro
+  app:
+    image: php:latest
+    ports:
+      - "9999:9999"
+    entrypoint: "php -S localhost:9999"
