@@ -1,0 +1,6 @@
+rewrite directive
+- pattern URI
+
+
+return directive
+- status URI
