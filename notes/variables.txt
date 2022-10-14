@@ -1,0 +1,14 @@
+Configuration Variables
+
+
+
+
+
+NGINX Module Variables
+- https://nginx.org/en/docs/varindex.html
+- $args
+    - arguments in the request line
+    - inspect?name=ray 요청에서 $args --> name=ray
+- $arg_<name>
+    - 해당 arg 이름의 값
+    - inspect?name=ray&age=20 요청에서 $arg_name --> ray, $arg_age --> 20
