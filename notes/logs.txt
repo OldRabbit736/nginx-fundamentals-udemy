@@ -1,0 +1,5 @@
+Error Log
+- 실패 메시지
+
+Access Log
+- 서버 접근 메시지
